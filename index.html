@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elearning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/304cb14f62.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <h1>Elearning Platform</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Singup</a></li>
+                <li><a href="mycourses.html">My courses</a></li>
+                <li><a href="techers.html">Tutor</a></li>
+                <li><a href="#logout" id="logout-btn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="home-content">
+            <h2>Welcome to Your Learning Journey</h2>
+            <p1>Explore a wide range of courses and start learning today!</p1><br>
+            <p2>Learn from the best, anytime, anywhere.</p2><br><br>
+            <button onclick="document.getElementById('courses').scrollIntoView()">Explore Courses</button>
+        </div>
+    </section>
+
+
+     <!-- About Section -->
+     <section id="about">
+        <h4>About Us</h4>
+        <p>We are committed to providing high-quality online education.</p>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h3>Our Courses</h3>
+        <div class="course-list">
+            <div class="course-item">
+                <h3>Introduction to Cybersecurity</h3>
+                <p>Learn the basics of cybersecurity.</p>
+                <button onclick="enroll('Introduction to Cybersecurity')">Enroll</button>
+            </div>
+            <div class="course-item">
+                <h3>Introduction to Excel</h3>
+                <p>Learn the basics of Excel.</p>
+                <button onclick="enroll('Introduction to Excel')">Enroll</button>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h5>Contact Us</h5>
+        <p>
+            0557788274
+        </p>
+         <a href="mailto:gilbertamenorhu@gmail.com"
+        title="emailme">
+        Email
+        </a><br>
+        
+        <div class="icons">
+            <a href="https://twitter.com">
+                <i class="fa-brands fa-square-x-twitter fa-2x"></i>
+             </a>
+             <a href="https://youtube.com">
+                 <i class="fa-brands fa-youtube fa-2x"></i>
+             </a>
+             <a href="https://linkedin.com">
+                 <i class="fa-brands fa-linkedin fa-2x"></i>
+            </a>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 elearning Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
