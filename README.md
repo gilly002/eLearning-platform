@@ -1,13 +1,17 @@
 Project Name: E-learning Platform
+
 Team Members: Amenorhu Gilbert Obube
+          
            Project Description
 Building an earning platform that will facilitate online education and content sharing between teachers and students. The platform will include two distinct dashboards: one for teachers to upload and manage their content, and another for students to access and consume this content.
 Technologies used: Html,Css,javascript,vs code 
+           
             Objectives
 Provide a structured and user-friendly interface for both teachers and students.
 Enable teachers to upload and manage educational content, including videos, documents, quizzes, and assignments.
 Allow students to access, engage with, and complete educational materials.
 Include features such as progress tracking, notifications, and discussion forums.
+
 
 E-Learning Platform frontend developers
      Teachers Dashboard
